@@ -16,6 +16,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    profilePic:{
+      type:String,
+      Default:"https://static.vecteezy.com/system/resources/thumbnails/002/387/693/small/user-profile-icon-free-vector.jpg"
+    }
   },
   { timestamps: true }
 );
